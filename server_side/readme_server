@@ -1,0 +1,3 @@
+This is the node.js part of the game
+It listens to the transfers made to the game iwth certain memo
+It calculates the result and makes the transfer to the user.
