@@ -41,7 +41,7 @@ var release = steem.api.streamTransactions('head', function(err, result) {
   			
 			});
 			
-			
+		// Transfer scripts - xxxxxx should be replaced by Active or Master Key to initiate transfer	
         }
         if ((choice == 'rock') && (AI_choice == 'scissors')) {
           status_text = "You:Rock - AI:Scissors ..... WIN! ..... 0.2 SBD paid.";
