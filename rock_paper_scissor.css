@@ -1,0 +1,162 @@
+p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    .gwd-imagebutton-zsyt {
+      position: absolute;
+      left: 322px;
+      top: 56px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      overflow: hidden;
+      border-style: none;
+    }
+    .gwd-imagebutton-cx1h {
+      left: 474px;
+      top: 170px;
+    }
+    .gwd-imagebutton-4xln {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      overflow: hidden;
+      left: 632px;
+      top: 371px;
+      transform-style: preserve-3d;
+      transform: translate3d(-479px, -138px, 1px);
+    }
+    .gwd-imagebutton-18j5 {
+      left: 851px;
+      top: 371px;
+      transform-style: preserve-3d;
+      transform: translate3d(-505px, -138px, 1px);
+    }
+    .gwd-imagebutton-ivul {
+      left: 249px;
+      top: 40px;
+    }
+    .gwd-img-rnly {
+      position: absolute;
+      height: 100px;
+      width: 120px;
+      left: 240px;
+      top: 150px;
+    }
+    .gwd-p-112r {
+      position: absolute;
+      width: 599px;
+      height: 60px;
+      text-align: center;
+      font-family: "Trebuchet MS";
+      color: rgb(30, 23, 236);
+      left: 293px;
+      top: 34px;
+    }
+    .gwd-div-p28g {
+      position: absolute;
+      width: 599px;
+      height: 382px;
+      left: 293px;
+      top: 135px;
+    }
+    .gwd-div-1fbx {
+      position: absolute;
+      width: 599px;
+      height: 41px;
+      left: 293px;
+      top: 94px;
+      text-align: center;
+      color: rgb(30, 23, 236);
+    }
+    .gwd-input-1mkx {
+      left: 0px;
+      top: 0px;
+      border-width: 5px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      background-image: none;
+      background-color: rgb(136, 136, 136);
+      border-image-source: none;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-color: rgb(136, 136, 136);
+    }
+    .gwd-input-eir4 {
+      top: 0px;
+      border-width: 5px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .gwd-p-zon5 {
+      width: 20px;
+      height: 20px;
+      top: 0px;
+      left: 0px;
+    }
+    .gwd-div-jkkg {
+      position: absolute;
+      width: 233px;
+      height: 45px;
+      top: 135px;
+      font-size: 20px;
+      color: rgb(37, 31, 236);
+      text-align: left;
+      left: 30px;
+    }
+    .gwd-h3-ig03 {
+      position: absolute;
+      width: 233px;
+      top: 180px;
+      color: rgb(37, 31, 236);
+      left: 30px;
+      height: 480px;
+    }
+    .gwd-div-1amd {
+      position: absolute;
+      width: 208.537px;
+      height: 47.561px;
+      top: 135px;
+      font-size: 20px;
+      color: rgb(37, 31, 236);
+      left: 950px;
+    }
+    .gwd-div-1w7e {
+      position: absolute;
+      width: 323.75px;
+      left: 950px;
+      top: 182.559px;
+      height: 480px;
+      color: rgb(37, 31, 236);
+      overflow: auto;
+    }
+    .gwd-div-1xgw {
+      position: absolute;
+      width: 599px;
+      height: 65px;
+      left: 293px;
+      top: 517px;
+      color: rgb(37, 31, 236);
+      font-size: 20px;
+    }

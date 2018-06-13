@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>rockpaperscissors</title>
+  <meta name="generator" content="Google Web Designer 3.0.1.0319">
+  <link rel="stylesheet" type="text/css" href="rock_paper_scissor.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">  
+  <script data-source="https://rspgame.neocities.org/gwd_webcomponents_min.js" data-version="5" data-exports-type="gwd_webcomponents" src="https://rspgame.neocities.org/gwd_webcomponents_min.js"></script>
+  <script data-source="https://rspgame.neocities.org/googbase_min.js" data-version="4" data-exports-type="googbase" src="https://rspgame.neocities.org/googbase_min.js"></script>
+  <script data-source="https://rspgame.neocities.org/gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="https://rspgame.neocities.org/gwdpage_min.js"></script>
+  <script data-source="https://rspgame.neocities.org/gwdimage_min.js" data-version="11" data-exports-type="gwd-image" src="https://rspgame.neocities.org/gwdimage_min.js"></script>
+  <script data-source="https://rspgame.neocities.org/gwdimagebutton_min.js" data-version="10" data-exports-type="gwd-imagebutton" src="https://rspgame.neocities.org/gwdimagebutton_min.js"></script>
+  <script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+ 
+</head>
+
+<body class="htmlNoPages">
+  <h1 class="gwd-p-112r">ROCK - SCISSORS - PAPER</h1>
+  <div class="gwd-div-p28g" id="game_container">
+    <gwd-imagebutton id="rock_button" up-image="assets/rock.png" over-image="" down-image="https://rspgame.neocities.org/assets/rock_press.png" scaling="contain" class="gwd-imagebutton-zsyt gwd-imagebutton-ivul" onclick="r_ock()"></gwd-imagebutton>
+    <gwd-imagebutton id="scissor_button" up-image="assets/scissor.png" over-image="" down-image="https://rspgame.neocities.org/assets/scissor_pressed.png" scaling="contain" class="gwd-imagebutton-zsyt gwd-imagebutton-cx1h gwd-imagebutton-18j5"
+    onclick="s_cissor()"></gwd-imagebutton>
+    <gwd-imagebutton id="paper_button" up-image="assets/paper.png" over-image="" down-image="https://rspgame.neocities.org/assets/paper_pressed.png" scaling="100% 100%" class="gwd-imagebutton-zsyt gwd-imagebutton-cx1h gwd-imagebutton-4xln"
+    onclick="p_aper()"></gwd-imagebutton>
+    <img class="gwd-img-rnly" src="assets/arrows.png">
+  </div>
+  <div class="gwd-div-1fbx" id="username_div">
+    <input id="Start" type="button" value="UserName" class="gwd-input-1mkx" onclick="user_enter()">
+    <input type="text" id="name" value="UserName" size="20" class="gwd-input-eir4">
+  </div>
+  <div class="gwd-div-1amd" id="transact_head">Game Status:</div>
+ 
+  <div class="gwd-div-jkkg">Game Rules:</div>
+  <p class="gwd-h3-ig03">AI choice is detemined by the last digit of the Transaction ID.<br>
+    <br>
+    0: Null - %90 of money return<br>
+    1: Rock<br>
+    2: Scissors<br>
+    3: Paper<br>
+    4: Rock<br>
+    5: Scissors<br>
+    6: Paper<br>
+    7: Rock<br>
+    8: Scissors<br>
+    9: Paper<br>
+    a: Rock<br>
+    b: Scissors<br>
+    c:Paper<br>
+    d:Rock<br>
+    e: Scissors<br>
+    f: Paper<br>
+    <br>
+    Win pays x 2<br>
+    Lose : money lost - 0.001 SBD msg<br>
+    Tie : %90 money return<br>
+    Bet is fixed to 0.1 SBD.</p>
+  
+  <div class="gwd-div-1w7e" id="status"></div>
+  <div class="gwd-div-1xgw" id="winloss"></div>
+</body>
+<script src="rock_scissors_paper.js"></script>
+</html>
